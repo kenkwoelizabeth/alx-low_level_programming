@@ -1,17 +1,21 @@
-#include "holberton.h"
+#include "main.h"
 /**
- *main - entry point.
- *Description: program starts and ends here.
- *Return: 0 on success.
+ * main - main block
+ * Description: Write a program that prints _putchar, followed by a new line
+ * Return: 0
  */
 int main(void)
 {
-char text[9] = "Holberton";
-int i;
-for (i = 0; i < 9; i++)
-{
-_putchar(text[i]);
-}
-_putchar('\n');
-return (0);
+	char c[8] = "_putchar";
+
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(c[i]);
+
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
