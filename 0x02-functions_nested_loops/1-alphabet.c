@@ -1,21 +1,18 @@
 #include "main.h"
 /**
- * main - main block
- * Description: Write a program that prints _putchar, followed by a new line
+ * print_alphabet - Entry point
  * Return: 0
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	char c[8] = "_putchar";
+	char c = 'a';
 
-	int i = 0;
-
-	while (i < 8)
+	while (c <= 'z')
 	{
-		_putchar(c[i]);
+		_putchar(c);
+		c++;
 
-		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
