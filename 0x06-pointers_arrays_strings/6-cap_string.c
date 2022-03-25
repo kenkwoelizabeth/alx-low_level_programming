@@ -31,5 +31,3 @@ char *cap_sting(char *str)
 	}
 	return (str);
 }
-© 2022 GitHub, Inc.
-Terms
